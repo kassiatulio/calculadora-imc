@@ -5,6 +5,7 @@ const submitHandler = (event) => {
   const imc = calculateImc(person.peso, person.altura)
 
   showMessage(`Seu IMC é: ${imc}.`)
+  
 }
 
 const buildPersonFromSubmitEvent = (event) => {
