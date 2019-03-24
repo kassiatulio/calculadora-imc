@@ -23,10 +23,12 @@ const calculateImc = (peso, altura) => {
 }
 
 const showMessage = (message) => {
-  alert(message)
+  document.getElementById("modal-header").innerHTML = message
+  $('.modal').modal("open")
 }
 
 window.onload = () => {
+  $('.modal').modal()
   const form = document.querySelector('.form')
   
   form.onsubmit = submitHandler
