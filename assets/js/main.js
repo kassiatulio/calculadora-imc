@@ -45,6 +45,5 @@ const getMessageByImc = (imc) => {
 window.onload = () => {
   $('.modal').modal()
   const form = document.querySelector('.form')
-  
   form.onsubmit = submitHandler
 }

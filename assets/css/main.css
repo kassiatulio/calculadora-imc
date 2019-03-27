@@ -5,14 +5,18 @@ html, body {
 
 body {
 	align-content: center;
-  background-color: rgb(214, 243, 241);
+  background-color: rgba(233, 233, 233, 0.904);
+}
+
+.nav-wrapper {
+  background-color: #885679;
 }
 
 .banner {
   background-image: url("../images/banner.jpg");
 	background-size: cover;
   background-position: bottom;
-  height: 40%;
+  height: 25%;
   opacity: 0.9;
 }
 
@@ -31,9 +35,20 @@ body {
 	margin: 1rem;
 }
 
+.modal img{
+  width: 80%;
+  height: 70%;
+}
+
 @media screen and (min-width: 1025px) {
   .banner {
     height: 20%;
     min-height: 300px;
   }
+
+  .modal img{
+    width: 40%;
+    height: 30%;
+  }
+
 }
